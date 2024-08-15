@@ -28,7 +28,7 @@ clickme.addEventListener("click", () => {
 
 const verify = (userEnteredOtp, currentOtp) => {
     if (userEnteredOtp == currentOtp) {
-        validatedata.innerHTML="You OTP is right";
+        validatedata.innerHTML="Your OTP is right";
         validatedata.style.color="green";
         validatedata.style.border="2px dashed green";
         validatedata.style.display="block";
