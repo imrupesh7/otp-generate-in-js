@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    font-family: 'Poppins', sans-serif;  
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #8869f7;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mobile-cover{
+    max-width: 340px;
+    width: 95%;
+    height: 650px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px 30px;
+}
+
+.screen{
+    width: 100%;
+    background: #f2f2f2;
+    height: 100%;
+    border-radius: 30px;
+    position: relative;
+    padding: 50px 5% 5%;
+}
+
+.soundbar{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 15px 15px;
+    display: grid;
+    place-content: center;
+}
+
+.gray-bar{
+    width: 75px;
+    margin: auto;
+    background-color: #d2d2d2;
+    height: 5px;
+    border-radius: 4px;
+}
+
+
+.work-area{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.heading{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.heading h1{
+    color: #8869f7;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.heading h1 hr{
+    width: 30%;
+    height: 2px;
+    background-color: #8869f7;
+    margin: 10px auto;
+}
+
+.container-box{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    content:  ' ';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.otp-generator{
+    width: 100%;
+    height: auto;
+}
+ button{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #8869f7;
+    color: white;
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+button:hover{
+    background-color: white;
+    color: #8869f7;
+    border: 2px dashed #8869f7;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid #8869f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p span{
+    font-size: 20px;
+    color: #8869f7;
+    font-family: monospace;
+}
+
+.validateotp{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.validateotp input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: 2px solid transparent;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.rupesh{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: ' ';
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+.rupesh a{
+    text-decoration: none;
+    color: #8869f7;
+}
